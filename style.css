@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+    font-family: "Lucida Console", monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: #262626;
+}
+
+a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+/* ********************************************************************* */
+/* Menu                                                                  */
+/* ********************************************************************* */
+
+#menu ul.navbar {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+#menu .navbar li {
+    display: inline-block;
+}
+
+#menu a {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    
+    
+    padding: 0px 40px;
+}
+
+#index {
+    position: absolute;
+    color: beige;
+    left: 600px;
+    bottom: 600px;
+    text-align: center;
+
+    
+}
+
+#header-text{
+    position: absolute;
+    color: beige;
+    left: 40px;
+    bottom: 550px;
+}
+
+#menu img {
+    width: 100%;
+   
+}
+
+/* Sub-Menu                                                             */
+
+#sub-menu img{
+    width: 120px;
+    height: 120px;
+    margin: 12px;
+    border-radius: 15px;
+}
+#sub-menu img:hover{
+   transform: scale(1.5);
+    border-radius: 15px;
+}
+#sub-menu{
+    display: flex;
+}
+
+#featured-cars{
+    width: 50%;
+}
+
+#upcoming-cars{
+    width: 30%;
+    float: right;
+    margin-top: 0px;
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
+/* ********************************************************************* */
+/* SLIDESHOW GALLERY                                                     */
+/* ********************************************************************* */
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* ********************************************************************* */
+/* Copyright                                                             */
+/* ********************************************************************* */
+
+#copyright {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: #16a085;
+    padding-top: 55px;
+    clear: both;
+    bottom: 0px;
+}
+
+#copright p {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+/* ********************************************************************* */
+/* Store                                                                 */
+/* ********************************************************************* */
+
+#instore {
+    background-color: azure;
+    width: 450px;
+    height: 550px;
+    margin-left: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#instore:hover {
+    transform: scale(1.1);
+}
+
+#instore img {
+    border-radius: 12px;
+}
+
+#instore-info {
+  display: flex;
+}
+
+/* ********************************************************************* */
+/* About us                                                              */
+/* ********************************************************************* */
+
+#about h1{
+    text-align: center;
+}
+
+#about h3{
+    text-align: center;
+}
+#about img{
+    width: 40%;
+}
+
+#about p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+/* ********************************************************************* */
+/* Contact us                                                            */
+/* ********************************************************************* */
+
+
+#contact {
+    min-height: 400px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#contact h3{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 50px;
+   
+}
+
+#right img{
+    width: 350px;
+    height: 400px;
+    float: right;
+}
+
+#contact {
+    float: left;
+    width: 70%;
+}
+
+/* LISTS */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li {
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0px;
+}
+
